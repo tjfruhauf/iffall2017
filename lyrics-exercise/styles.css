@@ -1,0 +1,24 @@
+h1{
+	 color:pink;
+	 font-weight:lighter;
+}
+span{
+	font-weight:bold;
+}
+body{
+	background-image: url("http://a2.cdn.whatstrending.com/post_items/images/000/051/203/original/SpongebobHappy.jpg");
+	}
+
+text{
+	color: red;
+	font-weight:bold;
+}	
+#Chorus{
+	color:blue;
+}
+#verse{
+	color:yellow;
+}
+#yeah{
+	font-size: 20px;color:purple;
+}
