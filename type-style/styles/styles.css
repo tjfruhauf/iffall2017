@@ -1,0 +1,42 @@
+h1{
+	font-family: "Raleway"; font-size: 40px;
+}
+span.raleway{
+	font-family: "Raleway"; font-size:20px;
+}
+h2{
+	color:rgba(0,0,0,150);color:#bbb; font-weight:bold;
+}
+#Rale{
+	font-family:"Raleway"; font-size:20px;
+}
+#RaleB{
+	font-family:"Raleway"; font-weight:bold; font-size: 20px;
+}
+h3{
+	color:rgba(0,0,0,150);color:#bbb; font-weight:bold;
+}
+#Rale03{
+	font-family:"Raleway"; font-size:20px; letter-spacing: .3;
+}
+#Rale06{
+	font-family:"Raleway"; font-size:20px; letter-spacing: .06;
+}
+#RaleUnderL{
+	font-family:"Raleway"; font-size:20px; text-decoration:underline;
+}
+#Raleline{
+	font-family:"Raleway"; font-size:20px; text-decoration:line-through;
+}
+#RaleOline{
+	font-family:"Raleway"; font-size:20px; text-decoration:overline;
+}
+#RaleUppercase{
+	font-family:"Raleway"; font-size:20px; text-transform: uppercase;
+}
+#RaleLowercase{
+	font-family:"Raleway"; font-size:20px; text-transform: lowercase;
+}
+#RaleCapital{
+	font-family:"Raleway"; font-size:20px; text-transform: capitalize;
+}

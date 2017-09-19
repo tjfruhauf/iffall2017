@@ -1,0 +1,44 @@
+h1{
+	 color:pink;
+	 font-weight:lighter;
+	 text-transform:capitalize;
+}
+span{
+	font-weight:bold;
+}
+body{
+	background-image: url("http://a2.cdn.whatstrending.com/post_items/images/000/051/203/original/SpongebobHappy.jpg");
+	}
+
+text{
+	color: red;
+	font-weight:bold;
+	text-transform: uppercase;
+
+}	
+#Chorus{
+	color:blue;
+}
+#verse{
+	color:yellow;
+}
+#yeah{
+	font-size: 20px;
+	color:purple;
+	text-decoration:line-through;
+}
+#underL{
+	text-decoration:underline;
+}
+#LetterS01{
+	letter-spacing: .1em;
+}
+#LetterS02{
+	letter-spacing: .2em;
+}
+#LetterS03{
+	letter-spacing: .3em;
+}
+#LetterS04{
+	letter-spacing: .4em;
+}
