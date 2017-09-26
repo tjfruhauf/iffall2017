@@ -1,0 +1,55 @@
+header {
+	margin-bottom:3rem;
+}
+p {
+	line-height:1.6;
+}
+div a {
+	letter-spacing:0.8em;
+	text-transform:uppercase;
+
+}
+h1{
+	font-size:2.5rem;
+	border:1px;
+	border-width: 1px;
+	border-left: 1px
+	border-right:1px;
+	border-style: solid;
+	border-color: black;
+}
+section h2{
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+title{
+	font-weight: lighter;
+}
+section.cast img{
+	width:100%;
+}
+section.cast li{
+	width:25%;
+}
+nav .selected {
+	font-weight:bold;
+	color:black;
+}
+section.cast div{
+	font-size:.8rem;
+}
+section.cast div:first-of-type{
+	font-weight:bold;
+}
+section.cast div:last-child{
+	font-style:italic;
+}
+#game-of-thrones li:last-child:after{
+	content:"*";
+}
+section.synopsis:before{
+	font-size:.7rem;
+	content:"*In production";
+	color:#999;
+}
+
