@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons &mdash; Thomas Fruhauf</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Meie+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+			a#btn_cocacola {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: none;
+				color: red;
+				font-family: 'Meie Script', cursive;
+				font-size: 30px;
+				text-decoration: none;
+				letter-spacing: 0px;
+			}
+			a#btn_cocacola:hover {
+				color:white;
+				background-color: red;
+			}
+			div.apple {
+				display: inline-block;
+				height: 135px;
+				box-sizing: border-box;
+				border-radius:0px;
+				margin: auto;
+				margin-top: 54px;
+				padding: 10px 30px 0 30px;
+				background-color: none;
+				color: gray;
+				font-size: 80px;
+				text-decoration: none;
+			}
+			div.apple:hover {
+			border-radius: 25px;
+				http://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+12,752201+84,752201+84,bf6e4e+100 */
+			background: #f0b7a1; /* Old browsers */
+			background: -moz-linear-gradient(top, #f0b7a1 0%, #8c3310 12%, #752201 84%, #752201 84%, #bf6e4e 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, #f0b7a1 0%,#8c3310 12%,#752201 84%,#752201 84%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 12%,#752201 84%,#752201 84%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+			color:white;
+			}
+			div.nike {
+				display: inline-block;
+				width: 200px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: orange;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+			div img{
+				display: inline-block;
+				width: 100px;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 13px;
+				padding-top: 8px;
+
+			}
+			div.nike:hover {
+				http://colorzilla.com/gradient-editor/#d2ff52+0,91e842+22,32ad57+85 */
+			background: #d2ff52; /* Old browsers */
+			background: -moz-linear-gradient(top, #d2ff52 0%, #91e842 22%, #32ad57 85%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, #d2ff52 0%,#91e842 22%,#32ad57 85%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, #d2ff52 0%,#91e842 22%,#32ad57 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#32ad57',GradientType=0 ); /* IE6-9 */
+			}
+
+			a#btn_samsung {
+				display: inline-block;
+				margin:auto;
+				margin-top: 105px;
+				padding: 8px 16px;
+				color: #060DAD;
+				font-family: 'arial', sans-serif;
+				text-decoration:none;
+				font-weight: bold;
+			}
+
+			a#btn_samsung:hover {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 150px / 50px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #060DAD;
+				color:white;
+				font-family: 'Arial', sans-serif;
+				text-decoration: none;
+				font-weight:bold;
+			}
+			div.cartoonNet{
+				margin-top:100px;
+				display: inline-block;
+				box-sizing: border-box;
+				}
+			div.cartoonNet img{
+				height:70px;
+			}
+			div.cartoonNet:hover{
+				-webkit-box-shadow: 18px 5px 17px 0px rgba(109, 185, 199, 1);
+-moz-box-shadow:    18px 5px 17px 0px rgba(109, 185, 199, 1);
+box-shadow:         18px 5px 17px 0px rgba(109, 185, 199, 1);
+
+			}
+			a#btn_botanicalG img{
+				    height: 200px;
+   					width: 200px;
+			}
+
+			a#btn_botanicalG {
+					display:inline-block;
+					height:200px;
+					width:200px;
+					margin-top:30px;
+					background-image:url("https://assets.trabiancdn.com/api/file/eCd94hYESIOpXYy0E6bm+MBG_Logo_600x400.jpg");
+					background-size: contain;
+					background-repeat: no-repeat;
+
+			}
+			a#btn_botanicalG:hover img{
+				display:none;
+			}		
+
+		</style>
+	</head>
+	<body>
+		
+		<div id="main_content">
+
+			<h1>Button Styling &mdash; Thomas Fruhauf</h1>
+			
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.amazon.com" target="_blank" id="btn_amazon"><i class="fa fa-amazon"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter">twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo">indiegogo</a>
+			</div>
+			<div class="button_container">
+				<a href="http://www.coca-cola.com/" target="_blank" id="btn_cocacola">Coca Cola</a>
+			</div>
+			<div class="button_container">
+				<div class="apple">
+					<i class="fa fa-apple" aria-hidden="true"></i>
+				</div>
+				<a href="http://www.apple.com/" target="_blank" id="btn_apple"></a>
+			</div>
+			<!-- NIKE -->
+			<div class="button_container">
+				<div class="nike">
+					<img src="http://pngimg.com/uploads/nike/nike_PNG11.png">
+					<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike">
+				</div>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.samsung.com/us/" target="_blank" id="btn_samsung">SAMSUNG</a>
+			</div>
+			<div class="button_container">
+				<div class = "cartoonNet">
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cartoonNet">
+				<img src="http://vignette1.wikia.nocookie.net/cartoonnetwork/images/f/fe/CARTOON_NETWORK_logo.png/revision/latest?cb=20111206183320">
+				</div>
+			</div>
+
+			<div class="button_container">
+				<div class="botanicalG">
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_botanicalG">
+				<img src="https://pbs.twimg.com/profile_images/540639394357452800/mk7NECtE_400x400.jpeg">
+			
+				</a>
+				</div>
+			</div>
+
+		</div>	
+
+	</body>
+</html>
