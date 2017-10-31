@@ -1,0 +1,154 @@
+div.first_div{
+	margin:30px;
+	background-color: red;
+	height: 640px;
+	position: relative;
+	box-sizing:border-box;
+}
+img{
+	margin-top:20px;
+	margin-left:20px;
+	height:600px;
+}
+div.quote{
+	font-family: 'Caveat Brush', cursive;
+	font-size:40px;
+	bottom:100px;
+	right:30px;
+	color:white;
+	position:absolute;
+	box-sizing:border-box;
+	width:400px;
+}
+div.name{
+	float:right;
+}
+@media screen and (max-width:885px){
+	div.quote{
+		width:150px;
+	}
+}
+@media screen and (max-width:700px){
+	img{
+		width:300px;
+		height:400px;
+		margin-left:100px;
+    	margin-bottom:20px;
+    	max-height:none;
+	}
+}
+@media screen and (max-width:700px){
+	div.quote{
+		margin-top:120px;
+		margin-left:55px;
+		position:relative;
+		font-size:30px;
+		width:400px;
+		display:inline-block;
+	}
+}
+
+/*second div styles*/
+
+div.second_div{
+	margin:30px;
+	background-color: lightgreen;
+	height: 640px;
+	position: relative;
+	box-sizing:border-box;
+}
+div.second_div img{
+	height:600px;
+}
+div.quote2{
+	font-family: 'Caveat Brush', cursive;
+	font-size:40px;
+	bottom:100px;
+	right:30px;
+	color:white;
+	position:absolute;
+	box-sizing:border-box;
+	width:400px;
+}
+div.name2{
+	float:right;
+}
+@media screen and (max-width:885px){
+	div.quote2{
+		width:150px;
+		margin-right:20px;
+	}
+}
+@media screen and (max-width:700px){
+	div.second_div img{
+		width:300px;
+		height:400px;
+		margin-left:100px;
+    	margin-bottom:20px;
+    	max-height:none;
+	}
+}
+@media screen and (max-width:730px){
+	div.quote2{
+		margin-top:120px;
+		margin-left:55px;
+		position:relative;
+		font-size:30px;
+		width:400px;
+		display:inline-block;
+	}
+}
+div.third_div{
+	margin:30px;
+	background-color: lightblue;
+	height: 640px;
+	position: relative;
+	box-sizing:border-box;
+}
+div.third_div img{
+	margin-left:20px;
+	margin-top:20px;
+	height:600px;
+}
+div.quote3{
+	font-family: 'Caveat Brush', cursive;
+	font-size:40px;
+	bottom:100px;
+	right:30px;
+	color:white;
+	position:absolute;
+	box-sizing:border-box;
+	width:400px;
+}
+div.name3{
+	float:right;
+}
+@media screen and (max-width:885px){
+	div.quote3{
+		width:150px;
+	}
+}
+@media screen and (max-width:700px){
+	div.third_div img{
+		width:300px;
+		height:400px;
+		margin-left:100px;
+    	margin-bottom:20px;
+    	max-height:none;
+	}
+}
+@media screen and (max-width:700px){
+	div.quote3{
+		margin-top:120px;
+		margin-left:55px;
+		position:relative;
+		font-size:30px;
+		width:400px;
+		display:inline-block;
+	}
+}
+
+
+
+
+
