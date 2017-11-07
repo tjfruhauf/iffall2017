@@ -1,0 +1,197 @@
+/*Spongebob Squarepants*/
+
+div.spongebob{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	/*background-image:url(https://vignette.wikia.nocookie.net/spongebob/images/2/24/SpongeBob%27s_pineapple_house.png/revision/latest?cb=20150425070919);*/
+	background-color:#ffff30;
+}
+img.sponge{
+	float:right;
+	height:619px;
+	width:674px;
+	margin: 29px 20px 0px 0px;
+}
+
+div.quote{
+	font-family: 'Caveat Brush', cursive;
+	font-size:40px;
+	top:73px;
+	left:50px;
+	color:#fc7674;
+	position:absolute;
+	box-sizing:border-box;
+	width:400px;
+}
+div.name{
+	float:right;
+}
+a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index: 4;
+}
+div.Squid{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	/*height:768px;*/
+	/*background-image:url(https://vignette.wikia.nocookie.net/spongebob/images/2/24/SpongeBob%27s_pineapple_house.png/revision/latest?cb=20150425070919);*/
+	background-color:#ffa500;
+
+}
+img.Squid{
+	float:right ;
+	height:619px;
+	margin: 50px 20px 0px 0px;
+}
+div.quote_squid{
+	font-family: 'Caveat Brush', cursive;
+	font-size:40px;
+	top:73px;
+	left:50px;
+	color:black;
+	position:absolute;
+	box-sizing:border-box;
+	width:400px;
+}
+div.name{
+	float:right;
+}
+@media screen and (min-width:701px) and (max-width:1000px){
+	div.quote{
+		width:200px;
+		margin:auto;
+		display:inline-block;
+	}
+}
+@media screen and (max-width:700px){
+	div.quote{
+		margin:auto;
+		font-size:30px;
+		width:263px;
+		top:55px;
+		position:relative;
+		left:auto;
+	}
+	div.quote_squid{
+		margin:auto;
+		font-size:30px;
+		width:263px;
+		top:55px;
+		position:relative;
+		left:auto;
+	}
+}
+@media screen and (max-width:700px){
+	img.sponge{
+		height:200px;
+		width:auto;
+		margin:auto;
+		display: block;
+		text-align:center;
+		float:none;
+		padding-top:120px;
+	}
+	img.Squid{
+		height:300px;
+		width:auto;
+		margin:auto;
+		display: block;
+		text-align:center;
+		float:none;
+		padding-top:46px;
+	}
+}
+
+/*Patrick Star */
+div.patrick{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	/*background-image:url(https://vignette.wikia.nocookie.net/spongebob/images/2/24/SpongeBob%27s_pineapple_house.png/revision/latest?cb=20150425070919);*/
+	background-color:#be68c4;
+
+}
+
+div.quote_patrick{
+	font-family: 'Caveat Brush', cursive;
+	font-size:40px;
+	top:73px;
+	right:50px;
+	color:#12edd7;
+	position:absolute;
+	box-sizing:border-box;
+	width:400px;
+}
+img.patrick{
+	float:left;
+	height:585px;
+	width:440px;
+	margin: 57px 20px 0px 0px;
+}
+@media screen and (max-width:700px){
+	img.patrick{
+		height:300px;
+		width:auto;
+		margin:auto;
+		display: block;
+		text-align:center;
+		float:none;
+		padding-top:30px;
+	}
+}
+@media screen and (max-width:700px){
+	div.quote_patrick{
+		margin:auto;
+		width:271px;
+		font-size:30px;
+		top:55px;
+		position:relative;
+		right:auto;
+}
+
+/*squidward*/
+
+
+
+/*@media screen and (min-width:701px) and (max-width:1000px){
+	div.quote{
+		width:200px;
+		margin:auto;
+		display:inline-block;
+	}
+}*/
+/*@media screen and (max-width:700px){
+	div.quote{
+		margin:auto;
+		font-size:30px;
+		width:263px;
+		top:55px;
+		position:relative;
+		left:auto;
+
+	}
+}
+@media screen and (max-width:700px){
+	img.Squid{
+		height:542px;
+		width:auto;
+		margin:auto;
+		display: block;
+		text-align:center;
+		float:none;
+		padding-top:92px;
+	}
+}*/
+
