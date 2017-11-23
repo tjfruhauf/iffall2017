@@ -1,0 +1,62 @@
+body, html{
+	padding:0px;
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+div.homepage{
+	background-image:url("../images/Homepage.jpg");
+	height:1100px;
+	background-repeat: no-repeat;
+	background-size:auto 100%;
+	position:relative;
+	margin:auto;
+	max-width:1400px;
+	min-width:1300px;
+}
+div.circle{
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+
+}
+div.circle:hover{
+	animation-duration:0;
+}
+@keyframes pulse {
+    0%   {background-color:red;}
+    25%  {background-color:rgba(255, 0, 0, .25);}
+    50%  {background-color:rgba(0, 0, 0, 0); }
+    55%  {background-color:rgba(255, 0, 0, 100);
+    		height:0%; 
+    		width:0%;}
+    100% {background-color:red;}
+}
+
+#cobbs{
+	height:20px;
+	width:20px;
+	border-radius: 50%;
+	background-color:red;
+	position:absolute;
+	top:666px;
+	left:520px;
+}
+#ariadne{
+	height:15px;
+	width:15px;
+	border-radius: 50%;
+	background-color:red;
+	position:absolute;
+	top:696px;
+	left:643px;
+}
+#info_cobbs{
+	height:300px;
+	width:400px;
+	margin:0px;
+	position:absolute;
+	top:200px;
+	left:865px;
+}
+
