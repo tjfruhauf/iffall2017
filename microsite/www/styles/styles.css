@@ -66,7 +66,14 @@ div.dot{
 	width:15px;
 	border-radius: 50%;
 	background-color:red;
+	overflow:hidden;
 
+}
+div.dot:hover{
+	overflow:visible;
+	-webkit-box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+-moz-box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
 }
 div.dot_1{
     animation-name: pulse_1;
@@ -77,6 +84,15 @@ div.dot_1{
 	height:15px;
 	width:15px;
 	border-radius: 50%;
+	overflow:hidden;
+
+
+}
+div.dot_1:hover{
+	-webkit-box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+-moz-box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+ overflow:visible;
 
 }
 div.dot_2{
@@ -88,6 +104,14 @@ div.dot_2{
 	height:15px;
 	width:15px;
 	border-radius: 50%;
+	overflow:hidden;
+}
+div.dot_2:hover{
+	-webkit-box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+-moz-box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+box-shadow: 10px 10px 91px 10px rgba(255,255,255,0.71);
+overflow:visible;
+
 }
 @keyframes pulse {
     0%   {background-color:red;}
@@ -388,6 +412,7 @@ h1{
 #d_level2_1{
 	top:390px;
 	left:410px;
+
 }
 
 #d_level2_1:hover .container {
